@@ -13,7 +13,7 @@ Try to get the correct word by guessing the letters.
 
 ### Sprint 1
 
-Goal: [Describe the result you want.]
+Goal: the player can guess all the correct letters, without reaching 6 wrong guesses. 
 
-Start: [Date]
-End: [Date]
+Start: 16 Nov
+End: 24 Nov
