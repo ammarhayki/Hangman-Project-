@@ -1,4 +1,4 @@
-# project-one
+# Hangman Project
 
 
 ## Project Planning
