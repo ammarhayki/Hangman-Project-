@@ -3,7 +3,7 @@
 
 ## Project Planning
 
-- [Project board](PASTE-YOUR-BOARD-URL-HERE)
+- [Project board](https://github.com/ammarhayki/project-one)
 - [Wireframe](./wireframe.png)
 
 ### Sprint 1
