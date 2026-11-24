@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hangman</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <main class="all-game">
+
+        <h1>Hangman</h1>
+        <section class="top-row">
+            <img src="./assets/ghost.png" alt="goost">
+            <button id="instructionsBtn">?</button>
+            <img src="./assets/reaper.png" alt="reaper">
+        </section>
+        <dialog id="instructions">
+            <h2>How to play</h2>
+            <p>INSTRUCTIONS.</p>
+            <button id="close-instructions" >X</button>
+        </dialog>
+
+        
+        <section class="hanger">
+            <img class="image" src="./assets/game-pic-0.png" alt="#">
+        </section>
+        <section class="letters">
+            <ul id="liLetters" >
+            </ul>
+        </section>
+        <section class="guess">
+            <H3></H3> 
+
+        </section>
+
+        <section class="key-row">
+            <button class="key" type="button">A</button><button class="key" type="button">B</button><button class="key" type="button">C</button><button class="key" type="button">D</button>
+            <button class="key" type="button">E</button><button class="key" type="button">F</button><button class="key" type="button">G</button><button class="key" type="button">H</button>
+            <button class="key" type="button">I</button><button class="key" type="button">j</button><button class="key" type="button">K</button><button class="key" type="button">L</button>
+            <button class="key" type="button">M</button><button class="key" type="button">N</button><button class="key" type="button">O</button><button class="key" type="button">P</button>
+            <button class="key" type="button">Q</button><button class="key" type="button">R</button><button class="key" type="button">S</button><button class="key" type="button">T</button>
+            <button class="key" type="button">U</button><button class="key" type="button">V</button><button class="key" type="button">W</button><button class="key" type="button">X</button>
+            <button class="key" type="button">Y</button><button class="key" type="button">Z</button>
+        </section>
+        <section class="game">
+            <button id="start">Start Game</button>
+            <button id="reset">Play Again</button>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
