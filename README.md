@@ -1,19 +1,35 @@
 # Hangman Project
 
+[Gameplay screenshot](assets/Screenshot.png)
 
-## Project Planning
 
-- [Project board](https://github.com/ammarhayki/project-one)
-
-###This is Wireframe
-<img width="733" height="779" alt="wireframe" src="https://github.com/user-attachments/assets/34d95c9d-2550-46a6-96aa-07365ef510e2" />
 
 ### Game Description 
-Try to get the correct word by guessing the letters. there is no timer but there is number of attempts before the men get hanged. try to get word and keep him safe him safe.
+Try to get the correct word by guessing the letters. there is no timer but there is number of attempts before the men get hanged. try to get word and keep him safe.
 
-### Sprint 1
+### Getting started 
 
-Goal: the player can guess all the correct letters, without reaching 6 wrong guesses. 
+- Open the [Link to the game](https://ammarhayki.github.io/Hangman-Project-/)
 
-Start: 16 Nov
-End: 24 Nov
+- to start the game, press start button to display the slots of letters to be guessed.
+
+- try to guess the letters befor the man get hanged. 
+
+- after the game is done, click play again to reset the game and guess another word. 
+ 
+#### Credits 
+
+- Styling the buttons and the got assitant by Copilot 
+
+### Technologies 
+
+- HTML 
+- CSS 
+- JavaScript 
+
+### Future Enhancements 
+
+- Adding sounds to the game.
+- adding more words to the guessed word library.
+- Adding categories with there theams.
+- Adding hints. 
