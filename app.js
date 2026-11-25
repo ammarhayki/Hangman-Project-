@@ -146,3 +146,8 @@ closeInstructionsBtnEl.addEventListener('click', () => {
     instructionsModalEl.close()
 })
 
+
+
+
+
+
